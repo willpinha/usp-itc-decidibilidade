@@ -93,7 +93,7 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
     <tr>
       <td>Vacuidade de uma GLC</td>
       <td>$V_{GLC} = \{ (G) | G$ é uma $GLC$ e $L(G) = \emptyset \}$</td>
-      <td>M_{$V_{GLC}} =$ "Sobre a entrada $(G)$, onde $G$ é uma $GLC$:
+      <td>$M_{V_{GLC}} =$ "Sobre a entrada $(G)$, onde $G$ é uma $GLC$:
         <ol>
           <li>Marque todos os números terminais em $G$</li>
           <li>Repita até que nenhuma variável venha a ser marcada:
