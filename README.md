@@ -123,7 +123,7 @@
       </td>
     </tr>
     <tr>
-      <td>Aceitação da cadeia $\epsilon$ por uma $GLC$</td>
+      <td>Geração da cadeia $\epsilon$ por uma $GLC$</td>
       <td>$A_{\epsilon_{GLC}} = \{ (G) | G$ é uma $GLC$ que gera $\epsilon \}$</td>
       <td>$M_{A_{\epsilon_{GLC}}} =$ "Sobre a entrada $(G)$, onde $G$ é uma $GLC$:
         <ol>
