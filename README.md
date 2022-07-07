@@ -116,7 +116,7 @@
     <tr>
       <td>Aceitação de todas as cadeias por um $AFD$</td>
       <td>$TODAS_{AFD} = \{ (A) | A$ é um $AFD$ e $L(A) = \Sigma^* \}$</td>
-      <td>$M_{TODAS_{AFD}} =$ "Sobre a entrada $(A)$, sendo $A$ um $AFD$:
+      <td>$M_{TODAS_{AFD}} =$ "Sobre a entrada $(A)$ sendo $A$ um $AFD$:
         <ol>
           <li>Se todos os estados alcançáveis de $A$ forem finais, aceite. Caso contrário, rejeite"</li>
         </ol>
