@@ -90,5 +90,20 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
         </ol>
       </td>
     </tr>
+    <tr>
+      <td>Vacuidade de uma GLC</td>
+      <td>$V_{GLC} = \{ (G) | G$ é uma $GLC$ e $L(G) = \emptyset \}$</td>
+      <td>M_{$V_{GLC}} =$ "Sobre a entrada $(G)$, onde $G$ é uma $GLC$:
+        <ol>
+          <li>Marque todos os números terminais em $G$</li>
+          <li>Repita até que nenhuma variável venha a ser marcada:
+            <ol>
+              <li>Marque qualquer variável $A$ onde $G$ tem uma regra $A \rightarrow U_1U_2...U_k e cada símbolo U_1...U_k já tenha sido marcado</li>
+            </ol>
+          </li>
+          <li>Se a variável inicial não está marcada, aceite. Caso contrário, rejeite"</li>
+        </ol>
+      </td>
+    </tr>
   </tbody>
 </table>
