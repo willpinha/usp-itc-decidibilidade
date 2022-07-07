@@ -1,2 +1,3 @@
-# usp-itc-decidibilidade
-Catálogo de problemas decidíveis e indecidíveis para a matéria Introdução à Teoria da Computação
+# USP - ITC - Decidibilidade
+
+> Catálogo de problemas decidíveis e indecidíveis para a matéria Introdução à Teoria da Computação
