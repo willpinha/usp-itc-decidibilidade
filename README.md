@@ -53,6 +53,16 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
       </td>
     </tr>
     <tr>
+      <td>Vacuidade de um AFD</td>
+      <td>$V_{AFD} = \{ (A) | A$ é um $AFD$ e $L(A) = \emptyset \}$</td>
+      <td>$M_{V_{AFD}} =$ "Sobre a entrada $(A)$, onde $A$ é um $AFD$:
+        <ol>
+          <li>Marque o estado inicial $A$</li>
+          <li>Repita até que nenhum </li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
       <td>Equivalência entre $AFD$'s</td>
       <td>$EQ_{AFD} = \{ (A,B) | A$ e $B$ são $AFD$'s e $L(A) = L(B) \}$</td>
       <td>$M_{EQ_{AFD}} =$ "Sobre a entrada $(A,B)$, sendo $A$ e $B$ $AFD$'s:
