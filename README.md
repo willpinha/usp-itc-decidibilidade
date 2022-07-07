@@ -124,7 +124,7 @@
     </tr>
     <tr>
       <td>Geração da cadeia $\epsilon$ por uma $GLC$</td>
-      <td>$A_{\epsilon_{GLC}} = \{ (G) | G$ é uma $GLC$ que gera $\epsilon$</td>
+      <td>$A_{\epsilon_{GLC}} = \{ (G) | G$ é uma $GLC$ que gera $\epsilon \}$</td>
       <td>$M_{A_{\epsilon_{GLC}}} =$ "Sobre a entrada $(G)$, onde $G$ é uma $GLC$:
         <ol>
           <li>Rode a entrada $(G, \epsilon)$ sobre a máquina $M_{A_{GLC}}$</li>
