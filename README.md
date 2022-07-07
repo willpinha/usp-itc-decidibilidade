@@ -123,7 +123,7 @@
       </td>
     </tr>
     <tr>
-      <td>Expressão regular contida em outra expressão regular</td>
+      <td>Linguagem de expressão regular contida em linguagem de outra expressão regular</td>
       <td>$C_{EXP/EXP} = \{ (R,S) | R$ e $S$ são expressões regulares e $L(R) \subseteq L(S) \}$</td>
       <td>$M_{C_{EXP/EXP}} =$ "Sobre a entrada $(R,S)$, onde $R$ e $S$ são expressões regulares:
         <ol>
