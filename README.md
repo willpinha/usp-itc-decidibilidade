@@ -102,5 +102,16 @@
         </ol>
       </td>
     </tr>
+    <tr>
+      <td>Equivalência entre $AFD$ e expressão regular</td>
+      <td>$EQ_{AFD,EXP} = \{ (A,E) | A$ é um $AFD$, $E$ é uma expressão regular e $L(A) = L(E) \}$</td>
+      <td>$M_{EQ_{AFD,EXP}} =$ "Sobre a entrada $(A,E)$, onde $A$ é um $AFD$ e $E$ é uma expressão regular:
+        <ol>
+          <li>Converta a expressão regular $E$ em um $AFD$ $E'$ equivalente</li>
+          <li>Rode a entrada $(A,E')$ sobre a máquina $EQ_{AFD}$</li>
+          <li>Se $EQ_{AFD}$ aceitar, aceite. Caso contrário, rejeite"</li>
+        </ol>
+      </td>
+    </tr>
   </tbody>
 </table>
