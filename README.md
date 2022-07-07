@@ -79,9 +79,16 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
       </td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Geração de uma cadeia por uma GLC</td>
+      <td>$A_{GLC} = \{ (G,w) | G$ é uma $GLC$ que gera a cadeia $w \}$</td>
+      <td>$M_{A_{GLC}} =$ "Sobre a entrada $(G,w)$, onde $G$ é uma $GLC$ e $w$ é uma cadeia:
+        <ol>
+          <li>Converta $G$ para uma gramática $G'$ equivalente na forma normal de Chomsky</li>
+          <li>Liste todas as derivações com $2n - 1$ passos, onde $n$ é o comprimento de $w$, exceto se $n = 0$. Nesse último caso, liste todas as
+            derivações com 1 passo</li>
+          <li>Se alguma dessas derivações gera $w$, aceite. Caso contrário, rejeite"</li>
+        </ol>
+      </td>
     </tr>
   </tbody>
 </table>
