@@ -58,7 +58,12 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
       <td>$M_{V_{AFD}} =$ "Sobre a entrada $(A)$, onde $A$ é um $AFD$:
         <ol>
           <li>Marque o estado inicial $A$</li>
-          <li>Repita até que nenhum </li>
+          <li>Repita até que nenhum estado novo venha a ser marcado:
+            <ol>
+              <li>Marque qualquer estado que tenha uma transição chegando nele a partir de qualquer estado que já tenha sido marcado</li>
+            </ol>
+          </li>
+          <li>Se nenhum estado de aceitação estiver marcado, aceite. Caso contrário, rejeite"</li>
         </ol>
       </td>
     </tr>
