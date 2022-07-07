@@ -78,5 +78,10 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
         </ol>
       </td>
     </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
