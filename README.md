@@ -98,7 +98,8 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
           <li>Marque todos os números terminais em $G$</li>
           <li>Repita até que nenhuma variável venha a ser marcada:
             <ol>
-              <li>Marque qualquer variável $A$ onde $G$ tem uma regra $A \rightarrow U_{1}U_{2}...U_{k}$ e cada símbolo $U_{1}...U_{k}$ já tenha sido marcado</li>
+              <li>Marque qualquer variável $A$ onde $G$ tem uma regra $A \rightarrow U_{1}U_{2}...U_{k}$ e cada símbolo $U_{1}...U_{k}$ já tenha sido  
+                marcado</li>
             </ol>
           </li>
           <li>Se a variável inicial não está marcada, aceite. Caso contrário, rejeite"</li>
