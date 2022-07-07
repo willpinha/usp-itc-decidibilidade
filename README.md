@@ -35,7 +35,7 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
       <td>$A_{AFN} = \{ (B,w) | B$ é um $AFN$ que aceita a cadeia $w \}$</td>
       <td>$M_{A_{AFN}} =$ "Sobre a entrada $(B,w)$, onde $B$ é um $AFN$ e $w$ é uma cadeia:
         <ol>
-          <li>Converta $B$ para um $AFD$ $B'$ equivalente</td>
+          <li>Converta $B$ para um $AFD$ $B'$ equivalente</li>
           <li>Rode a entrada $(B',w)$ sobre a máquina $M_{A_{AFD}}$</li>
           <li>Se $M_{A_{AFD}}$ aceitar, aceite. Caso contrário, rejeite."</li>
         </ol>
