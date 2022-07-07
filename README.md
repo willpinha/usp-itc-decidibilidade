@@ -128,7 +128,7 @@
       <td>$M_{C_{EXP/EXP}} =$ "Sobre a entrada $(R,S)$, onde $R$ e $S$ são expressões regulares:
         <ol>
           <li>Sendo $R^c$ a expressão regular que gera o complemento de $L(R)$, e sabendo que expressões regulares são fechadas sobre a operação
-          de interseção, rode a entrada $(R^c \cap L(S)$ sobre a máquina $V_{EXP}$</li>
+          de interseção, rode a entrada $(R^c \cap L(S))$ sobre a máquina $V_{EXP}$</li>
           <li>Se $V_{EXP}$ aceitar, aceite. Caso contrário, rejeite"</li>
         </ol>
       </td>
