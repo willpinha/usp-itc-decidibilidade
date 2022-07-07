@@ -26,7 +26,7 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
       <td>$M_{A_{AFD}} =$ "Sobre a entrada $(B,w)$, onde $B$ é um $AFD$ e $w$ é uma cadeia:
         <ol>
           <li>Simule $B$ sobre a cadeia $w$</li>
-          <li>Se a simulação termina em um estado de aceitação, aceite. Caso contrário, rejeite."</li>
+          <li>Se a simulação termina em um estado de aceitação, aceite. Caso contrário, rejeite"</li>
         </ol>
       </td>
     </tr>
@@ -37,7 +37,18 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
         <ol>
           <li>Converta $B$ para um $AFD$ $B'$ equivalente</li>
           <li>Rode a entrada $(B',w)$ sobre a máquina $M_{A_{AFD}}$</li>
-          <li>Se $M_{A_{AFD}}$ aceitar, aceite. Caso contrário, rejeite."</li>
+          <li>Se $M_{A_{AFD}}$ aceitar, aceite. Caso contrário, rejeite"</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>Geração de uma cadeia por uma expressão regular</td>
+      <td>$A_{EXP} = \{ (R,w) | R$ é uma expressão regular que gera a cadeia $w$\}</td>
+      <td>$M_{A_{EXP}} =$ "Sobre a entrada $(R,w)$, onde $R$ é uma expressão regular e $w$ é uma cadeia:
+        <ol>
+          <li>Converta a expressão regular $R$ para uma $AFN$ $A$ equivalente</li>
+          <li>Rode a entrada $(A,w)$ sobre a máquina $M_{A_{AFN}}$</li>
+          <li>Se $M_{A_{AFN}}$ aceitar, aceite. Caso contrário, rejeite"</li>
         </ol>
       </td>
     </tr>
