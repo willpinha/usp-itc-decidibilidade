@@ -53,11 +53,13 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
       </td>
     </tr>
     <tr>
-      <td>Equivalência de $AFD$'s</td>
+      <td>Equivalência entre $AFD$'s</td>
       <td>$EQ_{AFD} = \{ (A,B) | A$ e $B$ são $AFD$'s e $L(A) = L(B) \}$</td>
       <td>$M_{EQ_{AFD}} =$ "Sobre a entrada $(A,B)$, sendo $A$ e $B$ $AFD$'s:
         <ol>
           <li>Construa um $AFD$ $C$ tal que $L(C) = (L(A) \cap \overline{L(B)}) \cup (\overline{L(A)} \cap L(B))$</li>
+          <li>Rode a entrada $(C)$ sobre a máquina $M_{V_{AFD}}$</li>
+          <li>Se $M_{V_{AFD}}$ aceitar, aceite. Caso contrário, rejeite"</li>
         </ol>
       </td>
     </tr>
