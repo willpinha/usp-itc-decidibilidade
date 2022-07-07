@@ -2,8 +2,8 @@
 
 > Catálogo de problemas decidíveis e indecidíveis para a matéria Introdução à Teoria da Computação
 
-![Semestre](https://img.shields.io/badge/Semestre-5sem--2022-green)
-![Matéria](https://img.shields.io/badge/Mat%C3%A9ria-ACH2043--ITC-blue)
+![semestre](https://img.shields.io/badge/Semestre-5sem--2022-green)
+![matéria](https://img.shields.io/badge/Mat%C3%A9ria-ACH2043--ITC-blue)
 
 ## Problemas decidíveis
 
