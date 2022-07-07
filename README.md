@@ -122,5 +122,15 @@
         </ol>
       </td>
     </tr>
+    <tr>
+      <td>Aceitação da cadeia $\epsilon$ por uma $GLC$</td>
+      <td>$A_{\epsilon_{GLC}} = \{ (G) | G$ é uma $GLC$ que gera $\epsilon \}$</td>
+      <td>$M_{A_{\epsilon_{GLC}}} =$ "Sobre a entrada $(G)$, onde $G$ é uma $GLC$:
+        <ol>
+          <li>Rode a entrada $(G, \epsilon)$ sobre a máquina $M_{A_{GLC}}$</li>
+          <li>Se $M_{A_{GLC}}$ aceitar, aceite. Caso contrário, rejeite"</li>
+        </ol>
+      </td>
+    </tr>
   </tbody>
 </table>
