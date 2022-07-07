@@ -43,7 +43,7 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
     </tr>
     <tr>
       <td>Geração de uma cadeia por uma expressão regular</td>
-      <td>$A_{EXP} = \{ (R,w) | R$ é uma expressão regular que gera a cadeia $w$\}</td>
+      <td>$A_{EXP} = \{ (R,w) | R$ é uma expressão regular que gera a cadeia $w \}$</td>
       <td>$M_{A_{EXP}} =$ "Sobre a entrada $(R,w)$, onde $R$ é uma expressão regular e $w$ é uma cadeia:
         <ol>
           <li>Converta a expressão regular $R$ para uma $AFN$ $A$ equivalente</li>
@@ -51,6 +51,11 @@ problema utilizando o modelo descritivo de uma máquina de Turing.
           <li>Se $M_{A_{AFN}}$ aceitar, aceite. Caso contrário, rejeite"</li>
         </ol>
       </td>
+    </tr>
+    <tr>
+      <td>Equivalência de $AFD$'s</td>
+      <td>$EQ_{AFD} = \{ (A,B) | A$ e $B$ são $AFD$'s e $L(A) = L(B) \}$</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
