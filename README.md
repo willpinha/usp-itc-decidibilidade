@@ -137,3 +137,5 @@
 </table>
 
 ## Problemas indecidíveis
+
+### Prova por redutibilidade
