@@ -1,6 +1,6 @@
 # USP - ITC - Decidibilidade
 
-> Catálogo de problemas decidíveis e indecidíveis para a matéria Introdução à Teoria da Computação
+> Catálogo de problemas decidíveis para a matéria Introdução à Teoria da Computação
 
 ![semestre](https://img.shields.io/badge/semestre-5sem--2022-green)
 ![matéria](https://img.shields.io/badge/mat%C3%A9ria-ACH2043--ITC-blue)
@@ -133,34 +133,5 @@
         </ol>
       </td>
     </tr>
-  </tbody>
-</table>
-
-## Problemas indecidíveis
-
-### Prova por redutibilidade
-
-Prova-se por diagonalização o problema $A_{MT} =  \\{ (M,w) | M$ é uma $MT$ e $M$ aceita $w \\}$, denominado ***problema da parada***. A partir dele, é possível provar direta ou indiretamente por redutibilidade que outros problemas também são indecidíveis.
-
-<table>
-  <thead>
-    <th>Problema</th>
-    <th>Linguagem</th>
-    <th>Prova</th>
-  </thead>
-  <tbody>
-    <td>Parada de uma cadeia sobre uma $MT$</td>
-    <td>$PARA_{MT} = \{ (M,w) | M$ é uma $MT$ e $M$ pára sobre a cadeia $w$</td>
-    <td>Supondo que a $MT$ $M_{PARA_{MT}}$ decida $PARA_{MT}$. Construímos a $MT$ $M_{A_{MT}}$ para decidir $A_{MT}$
-      da seguinte forma: $M_{A_{MT}} =$ "Sobre a entrada $(M,w)$, onde $M$ é uma $MT$ e $w$ é uma cadeia:
-      <ol>
-        <li>Rode $(M,w)$ sobre a máquina $M_{PARA_{MT}}$</li>
-        <li>Se $M_{PARA_{MT}}$ rejeitar, rejeite</li>
-        <li>Se $M_{PARA_{MT}}$ aceitar, simule $M$ sobre $w$ até que ela pare</li>
-        <li>Se $M$ aceitar, aceite. Caso contrário, rejeite"</li>
-      </ol>
-      Sabemos que a linguagem $A_{MT}$ é indecidível, porém conseguimos decidi-la utilizando a máquina $M_{PARA_{MT}}$. Portanto, por contradição,
-      provamos que a linguagem $PARA_{MT}$ é indecidível.
-    </td>
   </tbody>
 </table>
