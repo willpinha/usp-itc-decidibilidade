@@ -150,7 +150,7 @@ Prova-se por diagonalização o problema $A_{MT} =  \\{ (M,w) | M$ é uma $MT$ e
   </thead>
   <tbody>
     <td>Parada de uma cadeia sobre uma $MT$</td>
-    <td>$PARA_{MT} = \{ (M,w) | M$ é uma $MT$ e $M$ pára sobre a entrada $w$</td>
+    <td>$PARA_{MT} = \{ (M,w) | M$ é uma $MT$ e $M$ pára sobre a cadeia $w$</td>
     <td>Supondo que a $MT$ $M_{PARA_{MT}}$ decida $PARA_{MT}$. Construímos a $MT$ $M_{A_{MT}}$ para decidir $A_{MT}$
       da seguinte forma:
       <ol>
