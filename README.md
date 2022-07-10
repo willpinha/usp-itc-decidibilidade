@@ -139,3 +139,28 @@
 ## Problemas indecidíveis
 
 ### Prova por redutibilidade
+
+Prova-se por diagonalização o problema $A_{MT} =  \\{ (M,w) | M$ é uma $MT$ e $M$ aceita $w \\}$, denominado ***problema da parada***. A partir dele, é possível provar direta ou indiretamente por redutibilidade que outros problemas também são indecidíveis.
+
+<table>
+  <thead>
+    <th>Problema</th>
+    <th>Linguagem</th>
+    <th>Prova</th>
+  </thead>
+  <tbody>
+    <td>Parada de uma cadeia sobre uma $MT$</td>
+    <td>$PARA_{MT} = \{ (M,w) | M$ é uma $MT$ e $M$ pára sobre a entrada $w$</td>
+    <td>Supondo que a $MT$ $M_{PARA_{MT}}$ decida $PARA_{MT}$. Construímos a $MT$ $M_{A_{MT}}$ para decidir $A_{MT}$
+      da seguinte forma:
+      <ol>
+        <li>Rode a entrada $(M,w)$ sobre a máquina $M_{PARA_{MT}}$</li>
+        <li>Se $M_{PARA_{MT}}$ rejeitar, rejeite</li>
+        <li>Se $M_{PARA_{MT}}$ aceitar, simule $M$ sobre $w$ até que ela pare</li>
+        <li>Se $M$ aceitar, aceite. Caso contrário, rejeite</li>
+      </ol>
+      Sabemos que a linguagem $A_{MT}$ é indecidível, porém conseguimos decidi-la utilizando a máquina $M_{PARA_{MT}}$. Portanto, por contradição,
+      provamos que a linguagem $PARA_{MT}$ é indecidível.
+    </td>
+  </tbody>
+</table>
